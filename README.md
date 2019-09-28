@@ -13,17 +13,15 @@ The dataset that I will be wrangling (and analyzing and visualizing) is the twee
 - **Tweet's JSON Data:-** Using the tweet IDs in the WeRateDogs Twitter archive, we can query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file.
 
 ## Assessing Data
-<ul>
-<li>Once the the data is gathered we can assess the data in two ways:-</li>
-<ul>
-  <li>**Visual Assessment:-**In this process we put an eye on the gathered
+Once the the data is gathered we can assess the data in two ways:-
+  <b>Visual Assessment:-</b>In this process we put an eye on the gathered
 data and get overall overview.For this purpose I opened the Csv file
 in the excel sheet and also made use of jupyter notebook to see
-different parts of the data.</li>
-<li**>Programmatic Assessment:-**In this part I made use of different
+different parts of the data.
+<b>Programmatic Assessment:-</b>In this part I made use of different
 pandas methods to analyse the data such as
-info,describe,sum,value_counts,shape,head etc</li></ul>
-  <ul>
+info,describe,sum,value_counts,shape,head etc
+  
 ### Quality
 
 #### **Twitter Archive Table**
@@ -60,19 +58,19 @@ info,describe,sum,value_counts,shape,head etc</li></ul>
 
 <a id='clean'></a>
 ## Cleaning Data
-This is the final stage of data wrangling.This stage consists of 3 parts
-Define:-Here I defined the cleaning step which is to be
+This is the final stage of data wrangling.This stage consists of 3 parts<br>
+<b>Define:-</b>Here I defined the cleaning step which is to be
 performed.For example If we need to drop some unnecessary
 columns ,we can mention here.In this project different definitions
 include:-
-Merging all the 3 dataframes
-Combining dog stages into one column.
-Replacing names that doesn't look realistic.
-Dropping the unwanted columns.
-Code:-Here,we write the actual code with performs the action
+Merging all the 3 dataframes,
+Combining dog stages into one column,
+Replacing names that doesn't look realistic,
+Dropping the unwanted columns.<br>
+<b>Code:-</b>Here,we write the actual code with performs the action
 written in the defined part.For example here we write code to drop
-the columns.
-Test:-Finally in this part we check whether the above written code
+the columns.<br>
+<b>Test:-</b>Finally in this part we check whether the above written code
 works as per our requirement i.e we check whether those columns
 have been dropped or not for which we have written the code.
 ## Conclusion:-
